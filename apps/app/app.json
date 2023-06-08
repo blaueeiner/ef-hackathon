@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "EF Hackathon App",
+    "slug": "ef-hackathon",
+    "scheme": "ef-hackathon-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/f142f98f-e2a1-4b15-974b-79daa8f4754f"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.blaueeiner.efhackathonapp",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "CFBundleDisplayName": "EF Hackathon App"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ],
+      "package": "com.blaueeiner.efhackathonapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "468d0a1d-be78-441f-9f3c-09e0d53bf494"
+      }
+    },
+    "owner": "blaueeiner",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

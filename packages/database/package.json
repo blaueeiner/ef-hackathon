@@ -1,0 +1,27 @@
+{
+  "name": "database",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "prisma": "^4.10.0",
+    "ts-node": "^10.9.1",
+    "tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}

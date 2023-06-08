@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "384785034535",
+    "project_id": "ef-hackathon",
+    "storage_bucket": "ef-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384785034535:android:f9dd85c8886ed44d710d02",
+        "android_client_info": {
+          "package_name": "com.blaueeiner.efhackathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384785034535-7h150kcfdqd9nogc69jskecidti5a5vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeECFoye-Spo1LViEvebOtEKdaZFpSAa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384785034535-7h150kcfdqd9nogc69jskecidti5a5vh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "384785034535-60jqg59hgl807dr11sjonu0tec6i4p4s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.blaueeiner.efhackathonapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
