@@ -1,21 +1,23 @@
 import { Text, View } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { VALUE_COLOR_MAP } from '../core/helpers';
 
 type Props = {
   label: string;
   icon: string;
   value: number;
+  onPress: () => void;
 };
 
-export const BreakdownItem = ({ label, value, icon }: Props) => {
+export const BreakdownItem = ({ label, value, icon, onPress }: Props) => {
   let color = VALUE_COLOR_MAP[value.toPrecision(1)];
 
   return (
     <TouchableOpacity
       activeOpacity={0.5}
       className="space-y-4 rounded-lg border border-gray-400 px-6 py-4"
+      onPress={onPress}
     >
       <View className="flex-row items-center space-x-3 ">
         <MaterialIcons name={icon} size={24} />
